@@ -1,0 +1,133 @@
+*{
+margin:0;
+padding:0;
+font-family:"Gilroy";
+box-sizing:border-box;
+}
+html,body{
+ width:100%;
+ height:100%
+}
+#main{
+ width:100%;
+ height:100%
+}
+#top{
+width:100%;
+height:60%;
+background-image:url(https://images.unsplash.com/photo-1709023414183-b8d1d619015b?q=80&w=1466&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+background-size:cover;
+background-position:40% 50%;
+}
+#overlay{
+position:relative;
+width:100%;
+height:100%;
+
+}
+#text{
+align-items:center;
+display:flex;
+justify-content:space-between;
+position:absolute;
+bottom:10%;
+width:100%;
+padding: 0 10vw;
+}
+#text-right{
+display:flex;
+width:60%;
+justify-content:space-between;
+align-items:center;
+}
+#text-right i{
+color:black;
+}
+#text-right p {
+
+  color: white;
+  font-weight:500;
+  font-size: 6vw;
+  width:40%;
+  font-size:12px;
+}
+
+#text h1{
+font-weight:10;
+font-size: 6vw;
+color:white;
+}
+
+
+
+#bottom{
+display:flex;
+width:100%;
+height:40%;
+
+}
+#bone{
+padding:30px;
+width:25%;
+height:100%;
+background:#808080;
+}
+#bone p{
+margine-top:10px;
+font-size:12px;
+
+}
+#two{
+width:25%;
+height:100%;
+background-image:url(https://images.unsplash.com/photo-1707727081824-13af7e115665?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D );
+background-size:cover;
+background-position:center;
+}
+#three{
+ width:25%;
+ height:100%;
+ }
+ #three-top{
+  width:100%;
+  height:50%;
+  padding:30px;
+  background:#808080;
+  }
+  #three-top p{
+  margin-top:10px;
+  font-size:10px;
+  }
+  #three-bottom{
+   width:100%;
+   height:50%;
+   background-image:url( https://images.unsplash.com/photo-1709280859029-640ffffc140e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+   background-size:cover;
+   background-position:center;
+
+   }
+ #four{
+  width:25%;
+  height:100%;
+  padding:30px;
+  background-image:url(https://images.unsplash.com/photo-1707758998439-d8676934bc55?q=80&w=1285&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size:cover;
+     background-position:center;
+  }
+  .notf{
+  display:flex;
+  margin-top:20px;
+  justify-content:space-between;
+
+  }
+  .notf #photo{
+  width:40px;
+  height:40px;
+  border-radius:50%;
+  background-color: #202020;
+
+  }
+  .notf p{
+  width:86%;
+  font-size:12px;
+  }
